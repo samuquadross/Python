@@ -1,0 +1,11 @@
+import math
+an = float(input('Introduza o ângulo: '))
+c = math.cos(math.radians(an))
+s = math.sin(math.radians(an))
+t = math.tan(math.radians(an))
+print()
+print('='*20)
+print('Cosseno: {:.2f}'.format(c))
+print('Seno: {:.2f}'.format(s))
+print('Tangente: {:.2f}'.format(t))
+print('='*20)
