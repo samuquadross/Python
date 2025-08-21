@@ -1,0 +1,10 @@
+import pygame
+print('='*12)
+print('Music´s playing')
+print('='*12)
+pygame.init()
+pygame.mixer.music.load('candyland.mp3')
+pygame.mixer.music.play()
+input()
+pygame.event.wait()
+pygame.mixer.quit()
